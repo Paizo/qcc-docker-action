@@ -3,7 +3,7 @@
 pwdlogs=$(pwd)
 lslogs=$(ls -latrh /)
 
-qcclogs=$(./fteqcc64 -srcfile progs.src)
+qcclogs=$(/fteqcc64 -srcfile progs.src)
 
 echo "pwdlogs=$pwdlogs" >> $GITHUB_OUTPUT
 echo "lslogs=$lslogs" >> $GITHUB_OUTPUT
