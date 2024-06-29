@@ -1,12 +1,12 @@
 name: 'QCC Build'
 description: 'Build Quakec .qc sources'
-outputs:
-  pwdlogs:
-    description: 'pwdlogs pwd logs'
-  lslogs:
-    description: 'lslogs ls logs'
-  qcclogs:
-    description: 'FTEQCC execution logs'
+# outputs:
+  # pwdlogs:
+  #   description: 'pwdlogs pwd logs'
+  # lslogs:
+  #   description: 'lslogs ls logs'
+  # qcclogs:
+  #   description: 'FTEQCC execution logs'
 runs:
   using: 'docker'
   image: 'Dockerfile'
