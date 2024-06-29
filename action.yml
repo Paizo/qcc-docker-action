@@ -1,0 +1,5 @@
+name: 'QCC Build'
+description: 'Build Quakec .qc sources'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
