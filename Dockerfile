@@ -2,6 +2,13 @@ FROM --platform=linux/amd64 alpine:latest
 ARG TARGETARCH
 
 LABEL org.opencontainers.image.authors="https://github.com/Paizo https://x.com/PaizoKeizo"
+LABEL "com.github.actions.name"="qcc-docker-action"
+LABEL "com.github.actions.description"="Build Quake maps and qc sources"
+LABEL "com.github.actions.icon"="box"
+LABEL "com.github.actions.color"="orange"
+
+LABEL "repository"="https://github.com/Paizo/qcc-docker-action"
+LABEL "homepage"="https://github.com/Paizo/qcc-docker-action"
 
 RUN apk add --no-cache bash curl unzip libc6-compat libstdc++
 
